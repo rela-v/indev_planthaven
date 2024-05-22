@@ -247,3 +247,6 @@ animation = &"up"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(-0.5, 1)
 shape = SubResource("RectangleShape2D_xjdc8")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+zoom = Vector2(3, 3)
