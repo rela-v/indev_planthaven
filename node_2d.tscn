@@ -259,7 +259,7 @@ shape = SubResource("RectangleShape2D_xjdc8")
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 zoom = Vector2(3, 3)
 
-[node name="GPUParticles2D" type="GPUParticles2D" parent="CharacterBody2D"]
+[node name="Item_pickup_anim" type="GPUParticles2D" parent="CharacterBody2D"]
 texture_filter = 1
 emitting = false
 process_material = SubResource("ParticleProcessMaterial_4ewf7")
